@@ -1,16 +1,31 @@
-# testvalley
+Flutter Chat App with SendBird
+This is a Flutter application for building a chat app using the SendBird SDK.
 
-A new Flutter project.
+Description
+This Flutter application allows users to communicate with each other through real-time messaging using the SendBird platform. It provides features such as sending and receiving messages, creating group chats, and more.
 
-## Getting Started
+Installation
+Before running the application, make sure you have Flutter installed on your machine. If not, you can follow the official Flutter installation guide.
 
-This project is a starting point for a Flutter application.
+Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+git clone (https://github.com/Nkunja/BLQDevTestFlutter.git)
+cd BLQDevTestFlutter
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter pub get
+Create a SendBird account and obtain your SendBird Application ID. Replace [YOUR_APP_ID] in lib/utils/sendbird.dart with your SendBird Application ID.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Usage
+Run the app on a connected device or emulator:
+
+flutter run
+Sign up or log in to the app using your credentials.
+
+Start chatting with other users.
+
+Features
+User authentication: Sign up and log in functionality.
+Real-time messaging: Send and receive messages instantly.
+Group chats: Create and join group chats with multiple users.
+Notifications: Receive push notifications for new messages.
