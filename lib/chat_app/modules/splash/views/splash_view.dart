@@ -17,7 +17,7 @@ class SplashView extends GetView<SplashController> {
       backgroundColor: AppColors.chineseBlack,
       body: Center(
         child: Inter.semiBold(
-          'TESTVALLEY',
+          'Nkunja BLQTest',
           size: 40,
           color: AppColors.vividRaspberry,
         ),
